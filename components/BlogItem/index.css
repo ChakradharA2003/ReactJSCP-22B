@@ -1,0 +1,47 @@
+/* Write your CSS code here */
+* {
+  font-family: 'Roboto';
+}
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  width: 100%;
+  padding: 10px;
+}
+.title-date {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.title {
+  color: #12022f;
+  font-weight: bold;
+  font-size: 25px;
+}
+.date {
+  color: #9aa5b1;
+  font-weight: 400;
+  font-size: 18px;
+}
+.description {
+  color: #616e7c;
+  font-weight: 400;
+  font-size: 15px;
+  align-self: flex-start;
+}
+@media (max-width: 767px) and (orientation: portrait) {
+  .title {
+    font-size: 18px;
+  }
+  .date {
+    font-size: 12px;
+  }
+  .description {
+    font-size: 10px;
+  }
+}
