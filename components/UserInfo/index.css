@@ -1,0 +1,22 @@
+/* Write your CSS code here */
+* {
+  font-family: 'Roboto';
+}
+.user-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.profile-image {
+  height: 150px;
+  width: 150px;
+}
+.user-name {
+  color: #12022f;
+  font-size: 20px;
+}
+.user-para {
+  color: #616e7c;
+  font-size: 15px;
+}
